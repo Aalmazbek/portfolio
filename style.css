@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.container{
+    width: 90%;
+}
+
+h1{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+
+body::-webkit-scrollbar{
+    width: 5px;
+    height: 50%;
+    background: none;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+header .container{
+    height: 90px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+header .container a:nth-of-type(1){
+    color: black;
+}
+
+header .container a{
+    color: rgba(130, 130, 130, 1);
+}
+
+
+header .container img{
+    width: 40px;
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+.main{
+}
+
+.main .container{
+    border-top: 1px solid rgba(130, 130, 130, 1);
+    margin-bottom: 10vh;
+}
+
+.main .container .top{
+    margin: 40px 0;
+    position: relative;
+}
+
+.main .container .top h1{
+    width: 250px;
+    font-size: 47px;
+}
+
+.main .container .top p{
+    position: absolute;
+    left: 45%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main .container .top .btn-group{
+    width: 15px;
+    transform: rotate(270deg);
+    position: absolute;
+    right: 10px;
+}
+
+.main .container .top .btn-group label{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: none;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    height: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+.main .container .top .btn-group label:nth-of-type(1){
+    border-right: 3px solid black;
+}
+
+.main .container .top .btn-group input[type=radio]:checked + label{
+    color: black;
+}
+
+
+.main .container img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+.aboutme{
+    background-color: rgba(246, 246, 246, 1);
+    padding: 1px 0;
+}
+
+.aboutme .container{
+    text-align: center;
+    height: 100%;
+    margin: 50px auto;
+}
+
+.aboutme .container h1{
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.aboutme .container p{
+    width: 50%;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+.skills{
+    padding: 90px 0;
+}
+
+.skills .container p{
+    margin: 70px 0;
+    font-size: 18px;
+}
+
+.skills .container .workspaces{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.skills .container .workspaces .workspace{
+    width: 40%;
+    position: relative;
+    height: 250px;
+}
+
+.skills .container .workspaces .workspace:nth-of-type(3), .skills .container .workspaces .workspace:nth-of-type(4) {
+    display: none!important;
+}
+
+
+.skills .container .workspaces .workspace svg, .skills .container .workspaces .workspace img{
+    position: absolute;
+    top: 0;
+}
+
+.skills .container .workspaces .workspace:nth-of-type(1) svg{
+    height: 55%;
+}
+
+.skills .container .workspaces .workspace:nth-of-type(2) svg{
+    height: 55%;
+}
+
+.skills .container .workspaces .workspace:nth-of-type(3) svg{
+    width: 61%;
+    left: 24%;
+}
+
+.skills .container .workspaces .workspace:nth-of-type(4) img{
+    width: 50%;
+}
+
+.skills .container .workspaces .workspace p{
+    font-size: 18px;
+    justify-self: flex-end;
+    margin: 0;
+    color: rgba(130, 130, 130, 1);
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+
+.skills .container .workspaces .workspace .stars{
+    width: 100%;
+    height: 26px;
+}
+
+.skills .container .workspaces .workspace .stars img{
+    height: 100%;
+    position: static;
+}
+
+
+
+
+
+
+
+
+
+
+.portfolio{
+    background-color: rgba(246, 246, 246, 1);
+    padding: 120px 0;
+    width: 100%;
+}
+
+.portfolio .container{
+
+}
+
+.portfolio .container .project{
+    width: 1600px;
+    height: 1000px;
+    transform: scale(0.65);
+    margin: -100px 0;
+}
+
+.portfolio .container .project iframe{
+    width: 100%;
+    height: 90%;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.portfolio .container .project .link{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.portfolio .container .project a{
+    display: block;
+    width: fit-content;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0 auto;
+    font-size: 35px;
+    transition: 0.1s;
+}
+
+.portfolio .container .project a:hover{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none   ;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+}
+
+.footer .container{
+    margin: 90px auto;
+    margin-bottom: 20px;
+}
+
+.footer .container h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.footer .container a{
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 42px;
+    width: 180px;
+    height: 42px;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.footer .container p{
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.footer .container .social-networks{
+    margin-top: 80px;
+}
+
+.footer .container .social-networks p{
+    width: 100%;
+    color: rgba(130, 130, 130, 1);
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+    .container{
+        max-width: 570px;
+    }
+
+    header .container img{
+        display: none;
+    }
+
+    
+    
+    
+    
+    .main .container .top p{
+        left: 55%;
+    }
+
+    .skills .container .workspaces{
+        width: 100%;
+    }
+
+    
+
+
+
+    .portfolio .container .project{
+        width: 1220px;
+        height: 900px;
+        transform: scale(0.4);
+        margin: -150px 0;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 700px;
+    }
+    
+    header .container img{
+        display: none;
+    }
+    
+    
+    
+    
+    .main .container .top p{
+        left: 45%;
+    }
+
+
+
+
+    .skills .container .workspaces{
+        width: 70%;
+    }
+
+
+
+
+
+    .portfolio .container .project{
+        width: 1600px;
+        height: 1100px;
+        transform: scale(0.4);
+        margin: -250px 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 860px;
+    }
+
+
+
+
+
+    .skills .container .workspaces{
+        width: 50%;
+    }
+
+
+
+
+
+    .portfolio .container .project{
+        width: 1600px;
+        height: 1100px;
+        transform: scale(0.5);
+        margin: -200px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 936px;
+    }
+
+
+
+
+
+    .portfolio .container .project{
+        width: 1600px;
+        height: 1100px;
+        transform: scale(0.5);
+        margin: -200px 0;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container{
+        max-width: 943px;
+    }
+
+
+
+
+
+    .portfolio .container .project{
+        width: 1600px;
+        height: 1100px;
+        transform: scale(0.6);
+        margin: -100px 0;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .skills .container .workspaces{
+        width: 100%;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    .skills .container .workspaces .workspace{
+        width: 40%;
+        height: 300px;
+        margin: 50px 0;
+    }
+
+}
+
+@media (max-width: 576px) {
+    header .container a{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    .main .container .top{
+        flex-direction: column;
+        text-align: center;
+        align-items: center!important;
+    }
+    
+    .main .container .top h1{
+        font-size: 30px;
+        width: 100%;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .main .container .top p{
+        position: static;
+        font-size: 16px;
+    }
+    
+    .main .container .top .btn-group{
+        top: -100px;
+        left: 0;
+        transform: rotate(0);
+    }
+    
+    
+    
+    
+    
+    .aboutme .container h1{
+        font-weight: 500;
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .aboutme .container p{
+        width: 100%;
+    }
+    
+    
+    
+    
+    
+    .skills .container h1{
+        font-weight: 500;
+        font-size: 30px;
+    }
+    
+    .skills .container p{
+        margin: 20px 0;
+        margin-top: 30px;
+        font-size: 21px;
+    }
+    
+    
+    
+    
+    
+    .skills .container .workspaces .workspace{
+        width: 75%;
+        height: 200px;
+        max-width: 200px;
+    }
+
+
+
+
+
+    .portfolio .container .project{
+        width: 400px;
+        height: 800px;
+        transform: scale(0.5);
+    }
+
+    .portfolio .container .project:nth-of-type(2){
+        width: 1540px;
+        height: 1100px;
+        transform: scale(0.2);
+        margin: -400px 0;
+    }
+
+    .portfolio .container .project:nth-of-type(2) a{
+        transform: scale(2.5);
+    }
+}
+
